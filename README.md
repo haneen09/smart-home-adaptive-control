@@ -37,8 +37,7 @@ The recurrent models (RNN, LSTM, GRU) clearly outperformed the Linear Regression
 .
 ├── smart_home_adaptive_control.ipynb
 ├── requirements.txt
-├── data/
-│   └── README.md
+├── README.md
 └── results/
     ├── final_predictions_with_control.csv
     ├── model_comparison.png
@@ -57,11 +56,11 @@ pip install -r requirements.txt
 jupyter notebook smart_home_adaptive_control.ipynb
 ```
 
-Download the dataset (see below) and save it as `data/6FTC2088-1.csv` before running.
+The notebook expects the dataset at `data/6FTC2088-1.csv` (see Dataset below). The dataset is not included in this repository, so the saved outputs in the notebook and the plots in `results/` show the results without re-running.
 
 ## Dataset
 
-Adapted from the Kaggle competition [Smart Homes Temperature Time Series Forecasting](https://www.kaggle.com/competitions/smart-homes-temperature-time-seriesforecasting). The data is not redistributed in this repository. Please download it from Kaggle and follow its terms of use.
+The dataset used in this project is adapted from the Kaggle competition [Smart Homes Temperature Time Series Forecasting](https://www.kaggle.com/competitions/smart-homes-temperature-time-seriesforecasting). It is not included in this repository. The notebook expects a CSV named `6FTC2088-1.csv` in a `data` folder.
 
 ## Limitations and Future Work
 
